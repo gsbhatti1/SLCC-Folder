@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  height: auto;
+}
+
+.nav-window {
+  width: auto;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+}
+
+.nav-window ul {
+  list-style-type: none;
+  padding: 50px;
+}
+
+.nav-window ul li {
+  margin-bottom: 20px;
+}
+
+.nav-window ul li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content-window {
+  flex-grow: 2;
+}
+
+.content-window h1 {
+  font-size: 24px;
+}
+
+.content-window p {
+  font-size: 16px;
+}
+
+header {
+  background: linear-gradient(to right, #007BFF, #6610f2);
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  z-index: 1;
+  font-size: 3.5em;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hero p {
+  z-index: 1;
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5em;
+  color: #007BFF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 1.2em;
+  text-align: justify;
+  margin-bottom: 40px;
+  color: #555;
+  padding: 1%;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #007BFF;
+}
+
+
+
+@media (max-width: 800px) {
+  .hero h1 {
+    font-size: 2.5em;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+  }
+
+  .section-title {
+    font-size: 2em;
+  }
+
+  .section-content {
+    font-size: 1.1em;
+  }
+
+  .cta-button {
+    font-size: 1em;
+    padding: 12px 25px;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  background-color: #333;}
